@@ -31,7 +31,8 @@ h2 {
   grid-area: logo;
   background-color: #303F9F;
   color: white;
-  padding: 25px;
+  padding: 0px;
+  margin: 0px; 
 }
 
 nav {
