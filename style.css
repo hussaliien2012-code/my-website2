@@ -31,9 +31,6 @@ h2 {
   grid-area: logo;
   background-color: #303F9F;
   color: white;
-  padding: 0px;
-  margin: 0px; 
-  position: absolute; 
 }
 
 nav {
@@ -95,6 +92,7 @@ aside {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-bottom: 2px solid black; 
 }
 
 span {
@@ -120,8 +118,7 @@ footer img {
   top: 0;
   left: 0;
   width: 115px;
-  height: 100px;
-  object-fit: contain;
+  height: 90px;
   z-index: 2;
 }
 
