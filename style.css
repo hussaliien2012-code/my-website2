@@ -25,13 +25,7 @@ ul {
     "logo logo nav nav nav nav nav nav nav nav"
     "cont cont cont cont cont cont cont cont side side"
     "foot foot foot foot foot foot foot foot foot foot";
-}
-
-h2 {
-  grid-area: logo;
-  background-color: #303F9F;
-  color: white;
-}
+} 
 
 nav {
   grid-area: nav;
@@ -88,11 +82,10 @@ section div {
 
 aside {
   grid-area: side;
-  background-image: linear-gradient(to right, #00BCD4, #4CAF50);
+  background-image: linear-gradient(to right, #FDD835, #FBC02D);
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 2px solid black; 
 }
 
 span {
@@ -114,10 +107,11 @@ footer img {
 }
 
 .my-logo {
+  grid-area: logo; 
   position: absolute;
   top: 0;
   left: 0;
-  width: 115px;
+  width: 100px;
   height: 90px;
   z-index: 2;
 }
@@ -136,7 +130,6 @@ footer img {
   }
 
   h2 {
-    padding: 25px 5px;
     font-size: 18px;
   }
 
