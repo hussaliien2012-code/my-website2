@@ -4,11 +4,11 @@
   margin: 0;
 }
 body {
-  width: 50vh;
+  width: 30vh;
   height: 100vh;
 }
 .my-logo {
-  width: 115;
+  width: 215;
   height: 100px;
   position: absolute;
   z-index: 2
