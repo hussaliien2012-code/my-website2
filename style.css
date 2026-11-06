@@ -159,8 +159,8 @@ footer img {
 
     grid-template-areas:
       "logo nav nav nav"
-      "cont cont cont cont"
       "side side side side"
+      "cont cont cont cont"
       "foot foot foot foot";
   }
 
