@@ -80,13 +80,13 @@ footer {
   justify-content: space-evenly
 }
 section div {
-  width: 175px;
-  height: 175px;
+  width: 375px;
+  height: 375px;
   border: 2px solid black;
   border-radius: 6px;
   background-color: gray;
   overflow: scroll;
-  font-size: 20px
+  font-size: 40px
 }
 .one {
   position: absolute;
