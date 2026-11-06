@@ -91,7 +91,7 @@ section div {
 
 aside {
   grid-area: side;
-  background: #4CAF50;
+  background-image: linear-gradient(to right, #00BCD4, #4CAF50);
   display: flex;
   justify-content: center;
   align-items: center;
