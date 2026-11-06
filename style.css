@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100vh;
+  height: 400px;
+}
+.my-logo {
+  width: 115px;
+  height: 100px;
+  position: absolute;
+  z-index: 2
+}
+ul {
+  list-style: none
+}
+ul li {
+  display: inline-block;
+  color: #E3B04B;
+  text-decoration: underline;
+  margin-top: 35px;
+  margin-right: 3px
+}
+.home {
+  margin-left: 73px;
+}
+.page {
+  height: 159.9vh;
+  background-color: #eee;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: 100px auto 50px;
+  grid-template-areas: "logo logo nav nav nav nav nav nav nav nav" 
+                       "cont cont cont cont cont cont cont cont side side"
+                       "foot foot foot foot foot foot foot foot foot foot";
+}
+h2 {
+  grid-area: logo;
+  background-image: linear-gradient(to right, #303F9F);
+  color: white;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+nav {
+  grid-area: nav;
+  background-image: linear-gradient(to right, #0F2A43);
+  color: white;
+}
+section {
+  grid-area: cont;
+  background-image: linear-gradient(to right, #00BCD4, #4CAF50);
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+}
+aside {
+  grid-area: side;
+  background-image: linear-gradient(to right, #4CAF50);
+  color: black;
+}
+span {
+  display: flex;
+  align-items: center;
+  rotate: 90deg;
+  margin-top: 400px;
+  font-size: 30px
+}
+footer {
+  grid-area: foot;
+  background-color: #0F2A43;
+  color: #E3B04B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  justify-content: space-evenly
+}
+section div {
+  width: 175px;
+  height: 175px;
+  border: 2px solid black;
+  border-radius: 6px;
+  background-color: gray;
+  overflow: scroll;
+  font-size: 20px
+}
+.one {
+  position: absolute;
+  left: 10%;
+  top: 35%;
+  padding: 3px;
+}
+.two {
+  position: absolute;
+  left: 70%;
+  top: 35%;
+  padding: 3px;
+}
+.three {
+  position: absolute;
+  left: 10%;
+  top: 90%;
+  padding: 3px;
+}
+.four {
+  position: absolute;
+  left: 70%;
+  top: 90%;
+  padding: 3px;
+}
+.home-icon {
+  width: 50px;
+  height: 50px;
+}
+.profile-icon {
+  width: 50px;
+  height: 50px;
+}
+.more-icon {
+  width: 50px;
+  height: 50px;
+}
