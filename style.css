@@ -153,8 +153,8 @@ footer img {
 
     grid-template-rows:
       80px
-      minmax(400px, auto)
       100px
+      minmax(400px, auto)
       65px;
 
     grid-template-areas:
