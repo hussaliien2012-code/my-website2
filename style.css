@@ -82,7 +82,7 @@ section div {
 
 aside {
   grid-area: side;
-  background-image: linear-gradient(to right, brown)
+  background-image: linear-gradient(to right, brown); 
   justify-content: center;
   align-items: center;
 }
@@ -110,7 +110,7 @@ footer img {
   position: absolute;
   top: 0;
   left: 0;
-  width: 95x;
+  width: 105x;
   height: 80px;
   z-index: 2;
 }
