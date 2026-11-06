@@ -112,7 +112,7 @@ footer img {
   top: 0;
   left: 0;
   width: 100px;
-  height: 90px;
+  height: 80px;
   z-index: 2;
 }
 
@@ -127,10 +127,6 @@ footer img {
       "side side side side side side side side side side"
       "cont cont cont cont cont cont cont cont cont cont"
       "foot foot foot foot foot foot foot foot foot foot";
-  }
-
-  h2 {
-    font-size: 18px;
   }
 
   ul {
