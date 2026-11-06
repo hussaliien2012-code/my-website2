@@ -50,10 +50,6 @@ ul li {
   display: inline-block;
 }
 
-.home {
-  margin-left: 0;
-}
-
 section {
   grid-area: cont;
   background: linear-gradient(to right, #00BCD4, #4CAF50);
@@ -110,7 +106,7 @@ footer img {
   position: absolute;
   top: 0;
   left: 0;
-  width: 110x;
+  width: 105px;
   height: 80px;
   z-index: 2;
 }
