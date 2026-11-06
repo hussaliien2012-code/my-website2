@@ -11,6 +11,8 @@ body {
   width: 115px;
   height: 100px;
   position: absolute;
+  top: 0;
+  left: 0;
   z-index: 2
 }
 ul {
@@ -24,7 +26,7 @@ ul li {
   margin-right: 3px
 }
 .home {
-  margin-left: 73px;
+  margin-left: 125px;
 }
 .page {
   height: 159.9vh;
