@@ -72,8 +72,29 @@ section div {
   font-size: 16px;
 }
 
-.one, .two, .three, .four {
+.one {
   position: static;
+  display: flex;
+  jusify-content: center;
+  align-items: center;
+}
+.two {
+  position: static;
+  display: flex;
+  jusify-content: center;
+  align-items: center;
+}
+.three {
+  position: static;
+  display: flex;
+  jusify-content: center;
+  align-items: center;
+}
+.four {
+  position: static;
+  display: flex;
+  jusify-content: center;
+  align-items: center;
 }
 
 aside {
