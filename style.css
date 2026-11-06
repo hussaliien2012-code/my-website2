@@ -22,7 +22,7 @@ ul {
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: 100px minmax(450px, auto) 70px;
   grid-template-areas:
-    "logo logo nav nav nav nav nav nav nav nav"
+    "logo logo logo nav nav nav nav nav nav nav nav"
     "cont cont cont cont cont cont cont cont side side"
     "foot foot foot foot foot foot foot foot foot foot";
 } 
