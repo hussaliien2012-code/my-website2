@@ -8,7 +8,7 @@ body {
   height: 100vh;
 }
 .my-logo {
-  width: 215;
+  width: 285;
   height: 100px;
   position: absolute;
   z-index: 2
@@ -80,8 +80,8 @@ footer {
   justify-content: space-evenly
 }
 section div {
-  width: 375px;
-  height: 375px;
+  width: 200px;
+  height: 200px;
   border: 2px solid black;
   border-radius: 6px;
   background-color: gray;
