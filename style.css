@@ -171,7 +171,26 @@ border: 1px solid #496176;
     border-radius: 8px;
     width: fit-content;
 }
+/* Arrow */
 
+.source-code summary {
+    list-style: none;
+}
+
+.source-code summary::-webkit-details-marker {
+    display: none;
+}
+
+.source-code summary::before {
+    content: "▶";
+    display: inline-block;
+    margin-right: 8px;
+    transition: 0.3s;
+}
+
+.source-code[open] summary::before {
+    transform: rotate(90deg);
+}
 .code-content {
     background-color: #0F2A43;
     color: white;
