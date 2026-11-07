@@ -154,7 +154,9 @@ footer img {
   height: 35px;
   object-fit: contain;
 }
-
+footer p {
+  font-size: 1px
+} 
 /* Mobile */
 
 @media (max-width: 600px) {
