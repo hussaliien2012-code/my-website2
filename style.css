@@ -195,6 +195,28 @@ border: 1px solid #496176;
 .css {
   color: #E3B04B
 } 
+/* Code Overflow Fix */
+
+.code-content {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    overflow: hidden;
+}
+
+.code-content pre {
+    width: 100%;
+    max-width: 100%;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
+.code-content code {
+    display: block;
+    width: 100%;
+    white-space: inherit;
+}
 /* Footer */
 
 footer {
