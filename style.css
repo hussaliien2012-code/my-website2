@@ -52,7 +52,7 @@ nav {
   justify-content: center;
 }
 
-ul {
+.navi {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -179,7 +179,7 @@ width: 75px;
 height: 65px;
 }
 
-ul {
+.navi {
 gap: 8px;
 }
 
