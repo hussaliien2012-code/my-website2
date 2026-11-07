@@ -165,8 +165,8 @@ border: 1px solid #496176;
 
 .source-code summary {
     background-color: #0F2A43;
-    color: #E3B04B;
-    padding: 12px;
+    color: #B71C1C;
+    padding: 20px;
     cursor: pointer;
     border-radius: 8px;
     width: fit-content;
@@ -184,6 +184,10 @@ border: 1px solid #496176;
 .code-content pre {
     white-space: pre-wrap;
     overflow-wrap: anywhere;
+} 
+.html,
+.css {
+  color: #E3B04B
 } 
 /* Footer */
 
