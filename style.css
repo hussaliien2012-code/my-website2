@@ -202,7 +202,7 @@ border: 1px solid #496176;
     max-width: 100%;
     min-width: 0;
     overflow: hidden;
-    color: #1B5E20;
+    
 }
 
 .code-content pre {
@@ -211,12 +211,14 @@ border: 1px solid #496176;
     white-space: pre-wrap;
     overflow-wrap: anywhere;
     word-break: break-word;
+    color: #1B5E20;
 }
 
 .code-content code {
     display: block;
     width: 100%;
     white-space: inherit;
+    color: #1B5E20;
 }
 /* Footer */
 
