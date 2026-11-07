@@ -158,7 +158,33 @@ font-size: 13px;
 margin: 15px 0;
 border: 1px solid #496176;
 }
+.source-code {
+    margin: 20px;
+    font-family: monospace;
+}
 
+.source-code summary {
+    background-color: #0F2A43;
+    color: #E3B04B;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 8px;
+    width: fit-content;
+}
+
+.code-content {
+    background-color: #0F2A43;
+    color: white;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+.code-content pre {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+} 
 /* Footer */
 
 footer {
