@@ -154,9 +154,11 @@ footer img {
   height: 35px;
   object-fit: contain;
 }
-footer p {
-  font-size: 1px
-} 
+.copyright {
+  color: #E3B04B;
+  font-size: 13px;
+  text-align: center;
+}
 /* Mobile */
 
 @media (max-width: 600px) {
