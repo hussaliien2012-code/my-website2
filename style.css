@@ -21,7 +21,7 @@ body {
   grid-template-rows: 100px minmax(450px, 1fr) 70px;
 
   grid-template-areas:
-   "logo logo nav nav nav nav nav nav nav nav"
+   "logo logo nav nav nav nav nav nav nav nav" 
     "cont cont cont cont cont cont cont cont side side"
     "foot foot foot foot foot foot foot foot foot foot";
 }
@@ -112,10 +112,10 @@ section hr {
 .four span {
   display: block;
 }
-.four a {
+.lan {
   color: black; 
 } 
-.four a:hover {
+.lan:hover {
   color: blue; 
 } 
 /* Side Bar */
