@@ -159,15 +159,14 @@ margin: 15px 0;
 border: 1px solid #496176;
 }
 .source-code {
-    margin: 20px;
-    font-family: monospace;
+    text-align: center;
 }
 
 .source-code summary {
+    display: inline-block;
     background-color: #0F2A43;
     color: #B71C1C;
     padding: 20px;
-    padding-left: 70px; 
     cursor: pointer;
     border-radius: 8px;
     width: fit-content;
