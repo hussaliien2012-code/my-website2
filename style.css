@@ -143,21 +143,29 @@ footer {
   background-color: #0F2A43;
 
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 
+  padding: 0 25px;
   width: 100%;
   min-height: 65px;
 }
-footer img {
+
+.copyright {
+  color: #E3B04B;
+  font-size: 13px;
+}
+
+.footer-icons {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.footer-icons img {
   width: 35px;
   height: 35px;
   object-fit: contain;
-}
-footer p {
-  color: #E3B04B;
-  font-size: 13px;
-  text-align: center;
 }
 /* Mobile */
 
