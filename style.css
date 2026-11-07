@@ -172,38 +172,25 @@ border: 1px solid #496176;
     width: fit-content;
 }
 /* Arrow */
-
 .source-code summary {
-    list-style: none;
-}
-
-.source-code summary::-webkit-details-marker {
-    display: none;
-}
-
-.source-code summary::before {
-    content: "▶";
-    display: inline-block;
-    margin-right: 8px;
-    transition: 0.3s;
-}
-
-.source-code[open] summary::before {
-    transform: rotate(90deg);
-}
-.code-content {
     background-color: #0F2A43;
-    color: white;
-    padding: 15px;
-    margin-top: 10px;
+    color: #B71C1C;
+    padding: 20px;
+    cursor: pointer;
     border-radius: 8px;
-    overflow-x: auto;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
 }
 
-.code-content pre {
-    white-space: pre-wrap;
-    overflow-wrap: anywhere;
-} 
+.source-code summary::after {
+    content: " ▼";
+    color: #B71C1C;
+}
+
+.source-code[open] summary::after {
+    content: " ▲";
+}
 .html,
 .css {
   color: #E3B04B
