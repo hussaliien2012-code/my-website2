@@ -95,6 +95,9 @@ section div {
   font-size: 16px;
   overflow-wrap: anywhere;
 }
+section .four {
+  padding: 0px;
+}
 
 section b {
   display: block;
