@@ -112,10 +112,10 @@ section hr {
 .four span {
   display: block;
 }
-.four ol li a {
+.four a {
   color: black; 
 } 
-.four ol li a:hover {
+.four a:hover {
   color: blue; 
 } 
 /* Side Bar */
