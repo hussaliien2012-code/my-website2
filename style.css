@@ -25,7 +25,11 @@ body {
     "cont cont cont cont cont cont cont cont side side"
     "foot foot foot foot foot foot foot foot foot foot";
 }
-
+.four ol {
+  list-style-position: inside;
+  padding-left: 10px;
+  text-align: left;
+} 
 /* Logo */
 
 .brand {
