@@ -121,34 +121,42 @@ section hr {
 /* Side Bar */
 
 aside {
-  grid-area: side;
+grid-area: side;
+background-color: #0F2A43;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+padding: 15px;
 }
 
 .updates {
-  width: 100%;
-  max-width: 220px;
-  padding: 15px;
-  text-align: center;
-  color: #E3B04B;
+width: 100%;
+max-width: 250px;
+padding: 15px;
+text-align: center;
+color: #E3B04B;
 }
 
 .updates h3 {
-  margin-bottom: 20px;
+margin-bottom: 20px;
+font-size: 20px;
 }
 
 .updates p {
-  margin: 10px 0 5px;
-  font-weight: bold;
+margin: 10px 0 5px;
+font-weight: bold;
 }
 
 .updates span {
-  color: white;
-  font-size: 13px;
+color: white;
+font-size: 13px;
 }
 
 .updates hr {
-  margin: 15px 0;
-  border: 1px solid #496176;
+margin: 15px 0;
+border: 1px solid #496176;
 }
 
 /* Footer */
