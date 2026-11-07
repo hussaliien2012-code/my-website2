@@ -211,14 +211,14 @@ border: 1px solid #496176;
     white-space: pre-wrap;
     overflow-wrap: anywhere;
     word-break: break-word;
-    color: #1B5E20;
+    color: #388E3C;
 }
 
 .code-content code {
     display: block;
     width: 100%;
     white-space: inherit;
-    color: #1B5E20;
+    color: #388E3C;
 }
 /* Footer */
 
